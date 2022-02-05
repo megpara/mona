@@ -10,7 +10,7 @@ const tickets = [
   {
     date: "FRIDAY 3/4",
     show: "Evening Show",
-    link: "https://store.neonmona.org/collections/neon-cruises/products/volta-in-liquid-light-dance-performance-invited-dress-rehearsal-thursday-3-3-2022",
+    link: "https://store.neonmona.org/collections/neon-cruises/products/volta-in-liquid-light-dance-performance",
   },
   {
     date: "SATURDAY 3/5",
@@ -71,9 +71,15 @@ export default function Home() {
           <img className={styles.logo} src="/volta.png" />
         </a>
         <div className={styles.icons}>
-          <img src="/insta-logo.png" />
-          <img src="/vimeo-logo-black.png" />
-          <img src="/web-simple.jpeg" />
+          <a target="_blank" href="https://www.instagram.com/volta_collective/">
+            <img src="/insta-logo.png" />
+          </a>
+          <a target="_blank" href="https://vimeo.com/voltacollective">
+            <img src="/vimeo-logo-black.png" />
+          </a>
+          <a target="_blank" href="https://voltacollective.com">
+            <img src="/web-simple.jpeg" />
+          </a>
         </div>
       </footer>
     </div>
