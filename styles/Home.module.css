@@ -39,6 +39,7 @@
   text-transform: lowercase;
   width: 100%;
   text-align: left;
+  font-weight: 600;
 }
 .list {
   width: 100%;
