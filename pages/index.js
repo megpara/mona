@@ -6,6 +6,7 @@ const tickets = [
     date: "THURSDAY 3/3",
     show: "Invited Dress",
     link: "https://store.neonmona.org/collections/neon-cruises/products/volta-in-liquid-light-dance-performance-invited-dress-rehearsal-thursday-3-3-2022",
+    soldOut: true,
   },
   {
     date: "FRIDAY 3/4",
