@@ -49,6 +49,10 @@ export default function Home() {
           <div className={styles.description}>
             An in-person, immersive performance in MONA's galleries
           </div>
+          <img
+            style={{ width: "400px", marginTop: "20px" }}
+            src="Volta1_0590 (1).jpg"
+          />
         </div>
         <div className={styles.heading}>Shows</div>
 
