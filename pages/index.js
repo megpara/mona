@@ -37,6 +37,10 @@ export default function Home() {
         <title>VOLTA X MONA</title>
         <meta name="description" content="Volta X Museum of Neon Art" />
         <link rel="icon" href="/favicon.png" />
+        <meta
+          property="og:image"
+          content="https://inliquidlight.info/Volta1_0590 (1).jpg"
+        />
       </Head>
 
       <main className={styles.main}>
