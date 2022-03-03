@@ -16,6 +16,7 @@ const tickets = [
     date: "SATURDAY 3/5",
     show: "Family Show",
     link: "https://store.neonmona.org/collections/neon-cruises/products/volta-collective-in-liquid-light-family-dance-performance-saturday-3-5-2022",
+    soldOut: true,
   },
   {
     date: "SATURDAY 3/5",
@@ -58,9 +59,22 @@ export default function Home() {
                 <div className={styles.date}>{event.date}</div>
                 <div className={styles.showType}>{event.show}</div>
               </div>
-              <a href={event.link}>
-                <button className={styles.ticketLink}>Tickets</button>
-              </a>
+              {!event.soldOut && (
+                <a href={event.link}>
+                  <button className={styles.ticketLink}>Tickets</button>
+                </a>
+              )}
+              {event.soldOut && (
+                <div
+                  style={{
+                    fontSize: "12px",
+                    width: "100%",
+                    textAlign: "right",
+                  }}
+                >
+                  SOLD OUT
+                </div>
+              )}
             </div>
           ))}
         </div>
