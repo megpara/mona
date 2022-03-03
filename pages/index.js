@@ -49,10 +49,7 @@ export default function Home() {
           <div className={styles.description}>
             An in-person, immersive performance in MONA's galleries
           </div>
-          <img
-            style={{ width: "400px", marginTop: "20px" }}
-            src="Volta1_0590 (1).jpg"
-          />
+          <img className={styles.headerImg} src="Volta1_0590 (1).jpg" />
         </div>
         <div className={styles.heading}>Shows</div>
 
@@ -71,7 +68,7 @@ export default function Home() {
               {event.soldOut && (
                 <div
                   style={{
-                    fontSize: "12px",
+                    fontSize: "14px",
                     width: "100%",
                     textAlign: "right",
                   }}
