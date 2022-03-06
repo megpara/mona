@@ -29,6 +29,7 @@ const tickets = [
     date: "SUNDAY 3/6",
     show: "Evening Show",
     link: "https://store.neonmona.org/collections/neon-cruises/products/volta-in-liquid-light-dance-performance-sunday-3-6-2022",
+    soldOut: true,
   },
 ];
 
