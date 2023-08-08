@@ -23,7 +23,7 @@
 .title {
   margin: 0 0 25px;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 3rem;
   font-family: Bodoni Moda, serif;
   font-weight: 600;
   color: #cb0c0b;
@@ -91,6 +91,7 @@
 }
 .headerImg {
   width: 350px;
+  max-width: 100%;
   margin-top: 20px;
 }
 
@@ -109,5 +110,8 @@
   .list, .heading {
     max-width: 700px;
     margin: auto;
+  }
+  .title {
+    font-size: 4rem;
   }
 }
